@@ -1,0 +1,56 @@
+{
+    "name": "js-form-loader",
+    "version": "1.0.0",
+    "description": "A lightweight, vanilla JavaScript library for creating beautiful loading overlays on any DOM element with a fluent API design, perfect for forms and interactive elements",
+    "main": "dist/js-form-loader.js",
+    "module": "src/js-form-loader.js",
+    "browser": "dist/js-form-loader.min.js",
+    "unpkg": "dist/js-form-loader.min.js",
+    "jsdelivr": "dist/js-form-loader.min.js",
+    "files": [
+        "dist",
+        "src",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "npm run build:dev && npm run build:prod",
+        "build:dev": "cp src/js-form-loader.js dist/js-form-loader.js",
+        "build:prod": "terser src/js-form-loader.js -o dist/js-form-loader.min.js --compress --mangle",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "loader",
+        "spinner",
+        "overlay",
+        "loading",
+        "vanilla",
+        "javascript",
+        "element",
+        "dom",
+        "fluent",
+        "api",
+        "form",
+        "ui",
+        "component",
+        "lightweight"
+    ],
+    "author": "Belguinan Noureddine <nor15dine@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/belguinan/js-form-loader/issues"
+    },
+    "homepage": "https://github.com/belguinan/js-form-loader#readme",
+    "devDependencies": {
+        "terser": "^5.19.0"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
