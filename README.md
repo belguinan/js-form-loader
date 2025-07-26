@@ -1,5 +1,11 @@
 # js-form-loader
 
+[![npm version](https://img.shields.io/npm/v/js-form-loader.svg)](https://www.npmjs.com/package/js-form-loader)
+[![npm downloads](https://img.shields.io/npm/dm/js-form-loader.svg)](https://www.npmjs.com/package/js-form-loader)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Bundle Size](https://img.shields.io/bundlephobia/min/js-form-loader@1.1.1)](https://bundlephobia.com/package/js-form-loader@1.1.1)
+[![Bundle Size (gzip)](https://img.shields.io/bundlephobia/minzip/js-form-loader@1.1.1)](https://bundlephobia.com/package/js-form-loader@1.1.1)
+
 A lightweight, vanilla JavaScript library for creating beautiful loading overlays on any DOM element with a fluent API design, perfect for forms and interactive elements.
 
 ## Features
@@ -18,7 +24,7 @@ npm install js-form-loader
 Or via CDN:
 
 ```html
-<script src=""></script>
+<script src="https://cdn.jsdelivr.net/npm/js-form-loader/dist/js-form-loader.min.js"></script>
 ```
 
 ## Quick Start
