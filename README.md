@@ -3,8 +3,8 @@
 [![npm version](https://img.shields.io/npm/v/js-form-loader.svg)](https://www.npmjs.com/package/js-form-loader)
 [![npm downloads](https://img.shields.io/npm/dm/js-form-loader.svg)](https://www.npmjs.com/package/js-form-loader)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Bundle Size](https://img.shields.io/bundlephobia/min/js-form-loader@1.1.1)](https://bundlephobia.com/package/js-form-loader@1.1.1)
-[![Bundle Size (gzip)](https://img.shields.io/bundlephobia/minzip/js-form-loader@1.1.1)](https://bundlephobia.com/package/js-form-loader@1.1.1)
+[![Bundle Size](https://img.shields.io/bundlephobia/min/js-form-loader)](https://bundlephobia.com/package/js-form-loader)
+[![Bundle Size (gzip)](https://img.shields.io/bundlephobia/minzip/js-form-loader)](https://bundlephobia.com/package/js-form-loader)
 
 A lightweight, vanilla JavaScript library for creating beautiful loading overlays on any DOM element with a fluent API design, perfect for forms and interactive elements.
 
